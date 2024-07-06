@@ -1,0 +1,158 @@
+@media screen {
+    * {
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    /* Estilos específicos de elementos */
+    h1, h2, h3, h4, h5, h6 {
+      background: transparent;
+      color: #50514B;
+      font-weight: normal;
+      letter-spacing: .1em;
+    }
+  
+    #content h2 {
+      font-size: 1.4em;
+    }
+  
+    #content h3 {
+      font-size: 1.2em;
+    }
+  
+    #content h4, #content h5, #content h6 {
+      font-size: 1em;
+    }
+  
+    a:link {
+      background: transparent;
+      color: #666666;
+    }
+  
+    a:visited, a:hover, a:focus, a:active {
+      background: transparent;
+      color: #000000;
+    }
+  
+    /* Estilos para la navegación principal */
+    #nav-main {
+      list-style-type: none;
+      padding-bottom: 38px;
+    }
+  
+    #nav-main li a {
+      display: block;
+      height: 23px;
+      overflow: hidden;
+      text-indent: -9999px;
+      width: 184px;
+    }
+  
+    /* Estilos para formularios y etiquetas */
+    label {
+      background: transparent;
+      color: #999999;
+      display: block;
+    }
+  
+    label span {
+      background: transparent;
+      color: #D1E010;
+      font-size: .8em;
+      text-transform: uppercase;
+    }
+  
+    input, textarea {
+      border: 1px solid #DDDDDD;
+      color: #666666;
+      display: block;
+      font: .9em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+      margin-top: .5em;
+      -moz-border-radius: 4px;
+      padding: 2px;
+      width: 180px; /* Ajustar el ancho del input */
+    }
+  
+    textarea {
+      width: 369px; /* Ajustar el ancho del textarea */
+      height: 100px; /* Ajustar la altura del textarea */
+    }
+  
+    /* Estilos para la disposición de los contenidos */
+    #content-a {
+      float: left;
+      width: 386px;
+    }
+  
+    #content-a-inner {
+      padding: 233px 20px 0 66px;
+    }
+  
+    #content-b {
+      float: left;
+      width: 402px;
+    }
+  
+    #content-b-inner {
+      padding: 45px 20px 0 5px;
+    }
+  
+    /* Estilos para el pie de página */
+  }
+  
+  @media print {
+    body {
+      background: #FFFFFF;
+      color: #c0c0c0;
+      font: 8pt Arial, Helvetica, sans-serif;
+    }
+  
+    h1, h2, h3, h4, h5, h6, code, pre {
+      color: #d8d8d8;
+    }
+  
+    h2 {
+      font-size: 10pt;
+    }
+  
+    h3 {
+      font-size: 9pt;
+    }
+  
+    h4, h5, h6 {
+      font-size: 8pt;
+    }
+  
+    abbr, acronym {
+      border-bottom: none;
+    }
+  
+    abbr:after, acronym:after {
+      content: ' (' attr(title) ') ';
+    }
+  
+    a:after {
+      content: ' (' attr(href) ') ';
+    }
+  
+    a {
+      color: #cacaca;
+      text-decoration: none;
+    }
+  
+    #nav-main, form {
+      display: none;
+    }
+  
+    #heading {
+      border-bottom: 2px solid #666666;
+    }
+  }
+  /* Estilos para el contenido */
+#content-b-inner-no-bg {
+    padding: 45px 20px 0 5px;
+    background-color: transparent; /* Se asegura de que el fondo sea transparente */
+  }
+  
+  /* Ajustes adicionales según necesidades específicas */
+  

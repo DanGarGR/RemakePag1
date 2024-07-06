@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #c2c2c2;
+    background-color: #222; /* Fondo principal oscuro */
+    line-height: 1.6;
+  }
+
+  /* Header Styles */
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../imagenes/1293969.png") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(204, 204, 204);
+  }
+
+  header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0 0 15px #000;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+    color: #ff6600; /* Naranja brillante para los títulos */
+  }
+
+  header h1:hover {
+    transform: scale(1.1);
+  }
+
+  header p {
+    font-size: 1.5rem;
+    text-shadow: 0 0 15px #000;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+  }
+
+  header p:hover {
+    transform: scale(1.1);
+  }
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.7); /* Fondo de la barra de navegación */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff; /* Color blanco para el texto de la marca en la barra de navegación */
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff; /* Color blanco para el texto de los enlaces en la barra de navegación */
+    margin-left: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ffa500; /* Color naranja para el texto de enlaces al pasar el mouse */
+    transform: translateY(-3px);
+  }
+
+  /* Section Styles */
+  section {
+    padding: 5rem 0;
+  }
+
+  #Productos, #Proxi, #Sucursales {
+    text-align: center;
+    background-color: #eeeeee; /* Fondo de secciones oscuro */
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #202020; /* Texto blanco en secciones oscuras */
+  }
+  #Icono {
+    background-color: #eeeeee; /* Fondo de secciones */
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 3rem 1.5rem;
+    color: #202020; /* Color del texto */
+  }
+
+  #Icono h2 {
+    color: #ffa500; /* Color naranja para los títulos */
+  }
+
+  #Icono p {
+    color: #404040; /* Color gris oscuro para el texto */
+  }
+
+  #Productos:hover, #Icono:hover, #Proxi:hover, #Sucursales:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(235, 235, 235, 0.2);
+  }
+
+  #Productos h1, #Proxi h1, #Sucursales h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #ff6600; /* Naranja brillante para los títulos */
+  }
+
+  #Cross {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background: linear-gradient(rgba(15, 15, 15, 0.8), rgba(27, 27, 27, 0.8)), url("../imagenes/1307820.png") no-repeat center center/cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #Cross figcaption {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  #Cross p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  #Icono span {
+    font-size: 4rem;
+    color: #ffa500; /* Detalles en color naranja */
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  #Icono span:hover {
+    color: #ff6600; /* Color naranja más intenso al pasar el mouse */
+  }
+
+  #Icono p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    color: #292929; /* Texto blanco en secciones oscuras */
+  }
+
+  #Proxi img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  #Proxi img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Importancia del Diseño Gráfico Styles */
+  #Importancia {
+    text-align: center;
+    background-color: #d6d6d6; /* Fondo gris oscuro */
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 3rem;
+  }
+
+  #Importancia h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #ff6600; /* Detalles en color naranja */
+  }
+
+  #Importancia .col-md-6 {
+    margin-bottom: 2rem;
+  }
+
+  #Importancia h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #161616; /* Color del texto principal */
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  #Importancia h2:hover {
+    color: #ff6600; /* Color naranja al pasar el mouse */
+  }
+
+  #Importancia p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #181818; /* Color del texto principal */
+  }
+
+  /* Back to Top Button */
+  #Up {
+    font-size: 2rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333; /* Fondo del botón */
+    color: rgb(41, 41, 41);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  #Up:hover {
+    background-color: #555; /* Color de fondo más oscuro al pasar el mouse */
+    transform: scale(1.1);
+  }

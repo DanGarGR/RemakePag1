@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi perfil</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/GMV12.css">
+  <style>
+    /* Estilos adicionales */
+    body {
+      padding-top: 80px; /* Ajusta el valor según sea necesario para evitar que se oculte detrás de la barra de navegación */
+    }
+    #content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+    #content img {
+      max-width: 100%;
+      height: auto;
+    }
+    #content-b-inner {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body id="gordonmac-com" class="home">
+  <header id="Home" class="contenido text-center bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="../index.html">Daniel Iván</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Mi trabajo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Mi objetivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Importancia del Diseño Gráfico</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper-a">
+    <div id="wrapper-b">
+      <div id="wrapper-c">
+        <div id="content">
+          <div id="heading">
+            <div id="content-a">
+              <img src="../imagenes/f9662a35-f3bb-45e5-86d5-43c6cbc5f579.jpeg" alt="">
+              <div id="content-a-inner">
+                <!-- Contenido opcional aquí -->
+              </div>
+            </div>
+            <div id="content-b">
+              <div id="content-b-inner">
+                <h3>Contact Me</h3>
+                <form id="contactform" method="post" action="#">
+                  <div class="form-group">
+                    <label for="contactform-name">Nombre: <span>*</span></label>
+                    <input type="text" class="form-control" id="contactform-name" name="contactform-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="contactform-email">Direccion de Email: <span>*</span></label>
+                    <input type="text" class="form-control" id="contactform-email" name="contactform-email">
+                  </div>
+                  <div class="form-group">
+                    <label for="contactform-subject">Asunto: <span>*</span></label>
+                    <input type="text" class="form-control" id="contactform-subject" name="contactform-subject">
+                  </div>
+                  <div class="form-group">
+                    <label for="contactform-message">Mensaje: <span>*</span></label>
+                    <textarea class="form-control" id="contactform-message" name="contactform-message" rows="5"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button> <!-- Botón de enviar -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
